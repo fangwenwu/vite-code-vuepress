@@ -1,0 +1,15 @@
+{
+  "name": "Button按钮",
+  "itemConfig": {
+    "slotName": "",
+    "baseView": "BaseButton",
+    "text": "按钮",
+    "attributes": {
+      "type": "primary"
+    },
+    "style": {},
+    "class": {},
+    "children": [],
+    "methods": {}
+  }
+}
