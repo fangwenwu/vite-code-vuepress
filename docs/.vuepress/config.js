@@ -10,7 +10,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '你好， VuePress ！',
   description: '这是我的第一个 VuePress 站点',
-  base: '/', // 这是部署到github相关的配置
+  base: '/vite-code-vuepress', // 这是部署到github相关的配置
   markdown: {
     code: {
       lineNumbers: false // 代码块显示行号
