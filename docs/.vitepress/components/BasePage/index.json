@@ -1,0 +1,17 @@
+{
+  "name": "Page",
+  "itemConfig": {
+    "slotName": "",
+    "componentType": "baseComponent",
+    "baseView": "BasePage",
+    "attributes": {
+    },
+    "style": {
+      "backgroundColor": "#fff",
+      "minHeight": "100px"
+    },
+    "class": {},
+    "children": [],
+    "methods": {}
+  }
+}

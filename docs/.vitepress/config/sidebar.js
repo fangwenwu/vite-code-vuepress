@@ -1,22 +1,26 @@
 export default [
   {
-    text: '快速上手',
-    children: [
+    text: '开发指南',
+    items: [
       {
-        text: '安装使用',
+        text: '介绍',
+        link: '/componentDocs/VitePress'
+      },
+      {
+        text: '快速上手',
         link: '/componentDocs/Install'
       }
     ]
   },
   {
     text: '常规',
-    children: [
+    items: [
       
     ]
   },
   {
     text: '通用',
-    children: [
+    items: [
       {
         text: 'Button 组件',
         link: '/componentDocs/Button'

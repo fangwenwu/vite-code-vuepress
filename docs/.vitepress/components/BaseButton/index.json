@@ -10,6 +10,8 @@
     "style": {},
     "class": {},
     "children": [],
-    "methods": {}
+    "methods": {
+      "click": "onClick"
+    }
   }
 }

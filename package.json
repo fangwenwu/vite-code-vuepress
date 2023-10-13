@@ -7,17 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "docs:dev": "vuepress dev docs --config docs/.vuepress/config.js",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vitepress dev docs --congifg docs/.vitepress/config.js",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "pinia": "^2.1.6",
     "vant": "^4.7.1",
     "vite-code": "^0.0.50",
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vuepress/plugin-register-components": "^2.0.0-beta.67",
     "vite": "^4.4.5",
-    "vuepress": "^2.0.0-beta.67"
+    "vitepress": "^1.0.0-rc.20"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "name": "ATemplate",
+  "viewConfig": [
+    {
+      "baseView": "BasePage",
+      "style": {
+        "padding": "20px"
+      },
+      "children": [
+          {
+              "slotName": "",
+              "baseView": "BaseButton",
+              "text": "getValue: data.count",
+              "attributes": {
+                  "type": "primary"
+              },
+              "style": {},
+              "class": {},
+              "children": [],
+              "methods": {
+                "click": "onClick"
+              }
+          }
+      ]
+    }
+  ]
+}

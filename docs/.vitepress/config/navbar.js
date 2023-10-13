@@ -9,7 +9,7 @@ export default [
   },
   {
     text: '博客指南',
-    children: [{
+    items: [{
         text: '掘金',
         link: 'https://juejin.cn/'
       },
