@@ -21,6 +21,6 @@ export default [
   },
   {
     text: 'github',
-    link: 'https://github.com/m-baseui/m-baseui'
+    link: 'https://github.com'
   }
 ]

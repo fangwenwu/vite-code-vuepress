@@ -10,7 +10,7 @@
           {
               "slotName": "",
               "baseView": "BaseButton",
-              "text": "getValue: data.count",
+              "text": "function: getButtonText",
               "attributes": {
                   "type": "primary"
               },
@@ -20,6 +20,21 @@
               "methods": {
                 "click": "onClick"
               }
+          },
+          {
+            "slotName": "",
+            "baseView": "BaseToast",
+            "text": "toast 内容",
+            "attributes": {
+              
+            },
+            "style": {},
+            "class": {},
+            "children": [],
+            "value": "getValue: data.isShow",
+            "modelValue": "data.isShow",
+            "methods": {
+            }
           }
       ]
     }

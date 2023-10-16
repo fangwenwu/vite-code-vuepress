@@ -18,10 +18,9 @@
 
 <component :is="BaseButton" />
 
-```js
+```vue
 <template>
   <van-button
-    :ref="getRef"
     v-bind="initView.attributes"
     :style="initView.style"
     :class="initView.class"
@@ -45,7 +44,7 @@ const props = defineProps({
 })
 const emit = defineEmits(['update:modelValue', 'onActivate'])
 
-const { initView, getRef, getMethods } = useBaseHook(props, emit, jsonData)
+const { initView, getMethods } = useBaseHook(props, emit, jsonData)
 
 </script>
 

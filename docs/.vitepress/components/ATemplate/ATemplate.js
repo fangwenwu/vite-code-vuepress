@@ -8,17 +8,20 @@ export function useCurrentHook() {
 
   // 数据集
   const data = reactive({
-    count: 0,
+    buttonText: "打开弹窗",
+    isShow: false,
   })
 
   // 属性方法
   const attributeFn = {
-
+    getButtonText: () => {
+      return data.isShow ? '关闭弹窗' : '打开弹窗'
+    }
   }
   // 事件方法
   const actionsFn = {
     onClick: (options) => {
-      data.count++
+      data.isShow = !data.isShow
     }
   }
 

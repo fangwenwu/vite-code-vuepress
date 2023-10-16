@@ -13,6 +13,24 @@ export default [
     ]
   },
   {
+    text: '进阶指南',
+    items: [
+      {
+        text: '介绍',
+        link: '/componentDocs/upgrade/Install'
+      },
+      {
+        text: '组件介绍',
+        link: '/componentDocs/upgrade/Component'
+      },
+      {
+        text: '组合组件介绍',
+        link: '/componentDocs/upgrade/ComponentGroup'
+      }
+      
+    ]
+  },
+  {
     text: '常规',
     items: [
       

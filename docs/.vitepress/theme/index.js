@@ -21,6 +21,10 @@ export default {
           {
             name: 'BaseButton',
             component: () => import('.././components/BaseButton/index.vue'),
+          },
+          {
+            name: 'BaseToast',
+            component: () => import('.././components/BaseToast/index.vue'),
           }
         ]
       })
