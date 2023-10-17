@@ -6,7 +6,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs --congifg docs/.vitepress/config.js",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "sh script/deploy.sh"
   },
   "dependencies": {
     "pinia": "^2.1.6",
