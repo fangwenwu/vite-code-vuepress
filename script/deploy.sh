@@ -15,10 +15,7 @@ git add .
 git commit -m 'deploy'
 
 # 部署到 https://.github.io/
-git push -f git@github.com:fangwenwu/vite-code-vuepress.git master:gh-pages
+git push -f git@github.com:fangwenwu/vite-code-vuepress.git master:github-pages
 
-# 提交所有代码到github
-cd ../../../
-git add .
-git cm -m 'update'
-git push
+cd -
+rm -rf docs/.vitepress/dist

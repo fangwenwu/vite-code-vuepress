@@ -10,6 +10,7 @@
     "docs:deploy": "sh script/deploy.sh"
   },
   "dependencies": {
+    "http-serve": "^1.0.1",
     "pinia": "^2.1.6",
     "vant": "^4.7.1",
     "vite-code": "^0.0.50",
